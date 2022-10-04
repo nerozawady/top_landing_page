@@ -35,3 +35,29 @@ p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
 }
 
+/********************************************************************
+Custom Properties
+********************************************************************/
+
+:root {
+    /* Colors */
+    --color_1: #1F2937;
+    --color_2: #FFFFFF;
+    --color_3: #E5E7EB;
+    --color_4: #F9FAF8;
+    --color_5: #3882F6;
+
+    /* Font colors */
+    --fc_1: var(--color_4);
+    --fc_2: var(--color_3);
+    --fc_3: var(--color_1);
+
+    /* Font sizes */
+    --fs_1: 48px;
+    --fs_2: 36px;
+    --fs_3: 24px;
+    --fs_4: 18px;
+
+    /* Font weights */
+    --fw_1: bolder;
+}
