@@ -103,3 +103,54 @@ Header
     font-size: var(--fs_4);
     list-style: none;
 }
+
+/********************************************************************
+Hero
+********************************************************************/
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 100px var(--padding_1);
+    background-color: var(--color_1);
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero__title {
+    color: var(--color_4);
+    font-size: var(--fs_1);
+    font-weight: var(--fw_1);
+}
+
+.hero__desc {
+    color: var(--color_3);
+    font-size: var(--fs_4);
+}
+
+.hero__button {
+    align-self: start;
+    padding: 5px 30px;
+    color: var(--color_2);
+    font-size: var(--fs_4);
+    font-weight: var(--fw_1);
+    background-color: var(--color_5);
+    border: none;
+    border-radius: 10px;
+}
+
+.hero__placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    color: var(--color_2);
+    background-color: var(--color_6);
+    border-radius: 10px;
+}
