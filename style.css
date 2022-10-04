@@ -46,6 +46,7 @@ Custom Properties
     --color_3: #E5E7EB;
     --color_4: #F9FAF8;
     --color_5: #3882F6;
+    --color_6: #6d747d;
 
     /* Font colors */
     --fc_1: var(--color_4);
