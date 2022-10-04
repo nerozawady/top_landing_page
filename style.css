@@ -60,4 +60,15 @@ Custom Properties
 
     /* Font weights */
     --fw_1: bolder;
+
+/********************************************************************
+Main Container
+********************************************************************/
+
+.main_container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
 }
+
