@@ -61,6 +61,10 @@ Custom Properties
     /* Font weights */
     --fw_1: bolder;
 
+    /* Padding */
+    --padding_1: 300px;
+}
+
 /********************************************************************
 Main Container
 ********************************************************************/
@@ -72,3 +76,29 @@ Main Container
     font-family: sans-serif;
 }
 
+/********************************************************************
+Header
+********************************************************************/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px var(--padding_1);
+    background-color: var(--color_1);
+}
+
+.header__logo {
+    color: var(--color_4);
+    font-size: var(--fs_3);
+    font-weight: var(--fw_1);
+}
+
+.header__links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+    color: var(--color_3);
+    font-size: var(--fs_4);
+    list-style: none;
+}
