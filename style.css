@@ -47,6 +47,7 @@ Custom Properties
     --color_4: #F9FAF8;
     --color_5: #3882F6;
     --color_6: #6d747d;
+    --color_7: #4b5563;
 
     /* Font colors */
     --fc_1: var(--color_4);
@@ -153,4 +154,41 @@ Hero
     color: var(--color_2);
     background-color: var(--color_6);
     border-radius: 10px;
+}
+
+/********************************************************************
+Showcase
+********************************************************************/
+
+.showcase {
+    padding: 50px var(--padding_1);
+    text-align: center;
+}
+
+.showcase__title {
+    margin-bottom: 50px;
+    color: var(--color_1);
+    font-size: var(--fs_2);
+    font-weight: var(--fw_1);
+}
+
+.showcase__boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.showcase__box-container {
+    max-width: 150px;
+}
+
+.showcase__box {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border: 3px solid var(--color_5);
+    border-radius: 15px;
+}
+
+.showcase__desc {
+    color: var(--color_7);
 }
