@@ -216,3 +216,38 @@ Quote
     font-size: var(--fs_3);
     font-weight: var(--fw_1);
 }
+
+/********************************************************************
+Call To Action
+********************************************************************/
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px var(--padding_1);
+    padding: 50px 150px;
+    background-color: var(--color_5);
+    border-radius: 10px;
+}
+
+.cta__title {
+    font-size: var(--fs_2);
+    font-weight: var(--fw_1);
+    color: var(--color_2);
+}
+
+.cta__desc {
+    font-size: var(--fs_4);
+    color: var(--color_3);
+}
+
+.cta__button {
+    padding: 5px 30px;
+    font-size: var(--fs_3);
+    font-weight: var(--fw_1);
+    color: var(--color_2);
+    background-color: var(--color_5);
+    border: 3px solid white;
+    border-radius: 10px;
+}
