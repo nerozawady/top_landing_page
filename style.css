@@ -48,6 +48,7 @@ Custom Properties
     --color_5: #3882F6;
     --color_6: #6d747d;
     --color_7: #4b5563;
+    --color_8: #515151;
 
     /* Font colors */
     --fc_1: var(--color_4);
@@ -62,6 +63,7 @@ Custom Properties
 
     /* Font weights */
     --fw_1: bolder;
+    --fw_2: lighter;
 
     /* Padding */
     --padding_1: 300px;
@@ -191,4 +193,26 @@ Showcase
 
 .showcase__desc {
     color: var(--color_7);
+}
+
+/********************************************************************
+Quote
+********************************************************************/
+
+.quote-container {
+    padding: 100px var(--padding_1);
+    background-color: var(--color_3);
+}
+
+.quote-container__quote {
+    font-size: var(--fs_2);
+    font-weight: var(--fw_2);
+    font-style: italic;
+    color: var(--color_8);
+}
+
+.quote-container__quotee {
+    text-align: end;
+    font-size: var(--fs_3);
+    font-weight: var(--fw_1);
 }
